@@ -1,0 +1,8 @@
+Unix OS was developed at the AT&T Bell labs
+MULTICS System was being developed by AT&T Bell labs, MIT and GE
+Solaris is a unix flavour from Oracle
+AIX is IBM's flavour of Unix
+Denis Ritechie developed the C programming language
+HP-UX is HP's flavour of unix
+Linux is unix-like OS
+
