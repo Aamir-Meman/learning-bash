@@ -6,10 +6,10 @@
 # running
 
 echo 
-echo "The name of the machine is " $(uname -n) # uname -n gives the hostname
+echo "The name of the machine is " "$(uname -n)" # uname -n gives the hostname
 
 echo
-echo "The machine platform type is " $(uname -i) # uname -i gives the harwdare platform
+echo "The machine platform type is " "$(uname -i)" # uname -i gives the harwdare platform
 
 echo 
 echo "Specific processor information for this machine is: " 

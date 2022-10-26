@@ -6,7 +6,7 @@ echo "SCRIPT BEGINS"
 echo "Hello $LOGNAME"
 echo
 
-echo "Todays date and time is: "$(date)
+echo "Todays date and time is: $(date)"
 echo
 
 mynum=108
@@ -18,7 +18,3 @@ echo
 
 echo "SCRIPT FINISHED!!"
 echo
-
-
-
-

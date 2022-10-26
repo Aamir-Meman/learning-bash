@@ -1,13 +1,22 @@
 #!/bin/bash
 
-let arg1=12
-let arg2=11
+# let expr, prefer ((exp))
+# https://www.shellcheck.net/wiki/SC2219
 
-let add=$arg1+$arg2
-let sub=$arg1-$arg2
-let mul=$arg1*$arg2
-let div=$arg1/$arg2
-let rmdr=$arg1%$arg2
+((arg1=12))
+
+((arg2=11))
+
+((add=arg1+arg2))
+
+((sub=arg1-arg2))
+
+((mul=arg1*arg2))
+
+((div=arg1/arg2))
+
+((rmdr=arg1%arg2))
+
 echo $add $sub $mul $div $rmdr
 
 
