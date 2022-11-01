@@ -1,0 +1,7 @@
+root
+rooot
+roooot
+rooooot
+
+# grep 'ro\{3\}t' test.txt :- will pattern out the rooot 
+# grep 'ro\{2,4\}t' test.txt :- will pattern out the root , rooot and roooot 
