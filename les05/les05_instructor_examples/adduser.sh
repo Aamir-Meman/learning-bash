@@ -7,6 +7,6 @@ name=nuucp # Should match a single entry
 #name=root # Should match a single entry
 #name=rot # Should not match any entry 
 
-grep "^$name:" mypasswd
+grep "^$name:" mypasswd.txt
 
 
