@@ -7,3 +7,4 @@ rpm -qa | grep -i 'java' #  Linux users grep the java installation
 grep -v '#' /etc/apache2/httpd.conf # this will pattern out the lines without # in the httpd.conf file 
 grep -v '#' /etc/openldap/ldap.conf    
 grep '^/dev' /etc/vfstab # this will pattern out the disk start with /dev from the /vfstab file.
+ 

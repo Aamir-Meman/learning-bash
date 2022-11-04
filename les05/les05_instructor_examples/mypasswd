@@ -1,0 +1,8 @@
+timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
+nuucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+root:*:4:4:Root:/var/spool/uucp:/usr/sbin/uucico
