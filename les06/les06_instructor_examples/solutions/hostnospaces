@@ -1,0 +1,10 @@
+#
+# Internet host table
+#
+127.0.0.1 localhost
+192.9.200.111 ultrabear loghost
+192.9.200.121 ladybear
+192.9.200.122 littlebear
+192.9.200.123 poppabear
+192.9.200.124 newbear
+192.9.200.125 sparcbear
