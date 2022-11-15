@@ -19,4 +19,5 @@ sed '/^West/d' data.file # Don't display the pattern starts with W
 sed '/Central/,/South/d' data.file # this command will not display the range from Central to the South.
 ### Reading sed Commands from a file
 sed -f script1.sed data.file # Added the scirpt script1.sed
-
+### Writing Output Files
+sed -n -f script5.sed data.file # substitute numeric values starting with value 9 and replace the old value with Great Job and create the file called topperformers
