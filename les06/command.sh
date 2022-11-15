@@ -6,3 +6,10 @@ sed -n '/East/p' data.file # suppress the output and print the line with starts 
 sed -n '/East/,/West/p' data.file # suppress the output and print the line which starts with East and ends with West.
 sed -n '/Diana/, $p' data.file # suppress the output and print the line which starts with Diana and from there print last line.
 sed -n '/^E.*0$/p' data.file # suppress the output and starts the word with E till the end is zero(0) print it.
+### Substituting the Text in the data.file ###
+sed 's/3/X/' data.file #this will substitue the first occrence of 3 with X.
+sed 's/3/X/g' data.file #this will substitute the first occurence of 3 with X globally.
+sed -n '/ [0-9]$/p' data.file #this will print out the pattern[/] which ended in the single digit.
+sed 's/ [0-9]$/& Single Digit/' data.file # this will substitue the ending with single digit to some text. &[ambersand] will hold the old string value and then it will replace with Single Digit.
+sed '/East/r northmesg' data.file # this will read the pattern East in the data.file and then will insert the northmesg.
+
