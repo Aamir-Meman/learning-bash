@@ -17,4 +17,6 @@ sed '4,8d' data.file # Don't print from the range 4 to 8 lines
 sed '/East/d' data.file # Don't display the pattern starts with East in file.
 sed '/^West/d' data.file # Don't display the pattern starts with W
 sed '/Central/,/South/d' data.file # this command will not display the range from Central to the South.
+### Reading sed Commands from a file
+sed -f script1.sed data.file # Added the scirpt script1.sed
 
