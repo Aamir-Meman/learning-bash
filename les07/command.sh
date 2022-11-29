@@ -13,3 +13,6 @@ nawk ' /\.9/ ' data.file # this will kill the metacharacter and look for pattern
 # Special Patterns
 nawk 'BEGIN { print "Eastern Regions\n" }; /East/ { print $5, $4 }' data.file
 nawk 'BEGIN { print "Eastern Regions\n" }; /East/ { print $5, $4 } END { print "Eastern Region Monthly Report" } ' data.file
+# nawk scripts
+nawk -f report.nawk data.file
+nawk -f report2.nawk data.file
