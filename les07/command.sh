@@ -32,3 +32,5 @@ nawk 'BEGIN { OFS="\t" }; { print $3, $4, $2 }' data.file
 nawk -f report4.nawk data.file
 # User-Defined Variables
 nawk -f numexample.nawk data.file
+nawk -f numexample2.nawk data.file
+nawk -f numexample3.nawk data.file
