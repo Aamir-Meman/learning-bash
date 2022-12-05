@@ -28,3 +28,7 @@ nawk ' { print $1, $2, $3 } ' data.file
 nawk ' { print $1 "\t" $2, $3 } ' data.file
 nawk 'BEGIN { OFS="\t" }; { print $1, $2, $3 }' data.file
 nawk 'BEGIN { OFS="\t" }; { print $3, $4, $2 }' data.file
+# NR [ Number of Records]
+nawk -f report4.nawk data.file
+# User-Defined Variables
+nawk -f numexample.nawk data.file
