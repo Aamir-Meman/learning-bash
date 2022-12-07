@@ -34,3 +34,8 @@ nawk -f report4.nawk data.file
 nawk -f numexample.nawk data.file
 nawk -f numexample2.nawk data.file
 nawk -f numexample3.nawk data.file
+# Additional Examples
+nawk ' /M[ath]/ { print NR, $0 } ' data.file
+nawk ' BEGIN { count = 0 } 
+/E/ { print NR, $0; count = count + 1 } 
+END { print "count of East regions is", count } ' data.file
