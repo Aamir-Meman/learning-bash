@@ -43,3 +43,5 @@ END { print "count of East regions is", count } ' data.file
 nawk '{ print "Record:", NR, $NF }' data.file  # Print the last record/field of data.file
 nawk ' { print "Record : " , NR, "contains ", NF, "Fields"} ' raggeddata.file # to check number of fields in the given records
 nawk ' { print "Field 1 has" , length($1), "letters." } ' raggeddata.file
+nawk ' { print $2, $1 > "demo.txt" } ' data.file # output the file
+nawk ' { print $2, $1 >> "demo.txt" } ' data.file # append the output file
