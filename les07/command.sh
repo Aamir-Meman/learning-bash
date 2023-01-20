@@ -45,3 +45,4 @@ nawk ' { print "Record : " , NR, "contains ", NF, "Fields"} ' raggeddata.file # 
 nawk ' { print "Field 1 has" , length($1), "letters." } ' raggeddata.file
 nawk ' { print $2, $1 > "demo.txt" } ' data.file # output the file
 nawk ' { print $2, $1 >> "demo.txt" } ' data.file # append the output file
+nawk ' { printf "%10s %3d \n", $4, $7 } ' data.file 
