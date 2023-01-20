@@ -35,7 +35,11 @@ nawk -f numexample.nawk data.file
 nawk -f numexample2.nawk data.file
 nawk -f numexample3.nawk data.file
 # Additional Examples
+nawk '/D[iog]/ { print NR, $0 } ' data.file  # starting with D and print the NR and everything with $0
 nawk ' /M[ath]/ { print NR, $0 } ' data.file
 nawk ' BEGIN { count = 0 } 
 /E/ { print NR, $0; count = count + 1 } 
 END { print "count of East regions is", count } ' data.file
+nawk '{ print "Record:", NR, $NF }' data.file  # Print the last record/field of data.file
+nawk ' { print "Record : " , NR, "contains ", NF, "Fields"} ' raggeddata.file # to check number of fields in the given records
+nawk ' { print "Field 1 has" , length($1), "letters." } ' raggeddata.file
