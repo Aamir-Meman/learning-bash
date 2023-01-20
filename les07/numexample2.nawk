@@ -1,3 +1,3 @@
-{ total = total + $6 }
-{ print " Field 6 = " $6 }
+{ total = total + $9 }
+{ print " Field 9 = " $9 }
 END { print "Total = " total }
