@@ -8,3 +8,4 @@ printf "%5d%4d\n" 7 89 789 6789 56789 # this will display the result with 5 spac
 echo "Hello There \nHow are you?" # In bash this command will not work for new line
 echo "-2 was the temperature this morning"
 echo -n "No newline printed here  " # To suppress the new line character use -n # In bash system
+echo "Hello\tout\tthere" # tab command is not working in bash
