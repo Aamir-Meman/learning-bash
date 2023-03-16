@@ -9,3 +9,17 @@ echo "Hello There \nHow are you?" # In bash this command will not work for new l
 echo "-2 was the temperature this morning"
 echo -n "No newline printed here  " # To suppress the new line character use -n # In bash system
 echo "Hello\tout\tthere" # tab command is not working in bash
+
+# The read statement
+read var1 var2 var3
+read num string junk # More tokens then variables
+#134 bye93; alk the rest of the line is put in 'junk'
+read token1 token2 #<enter>
+#One  # token2 will be NULL
+read 
+#What is this saved in?
+echo $REPLY
+#What is this saved in?
+read #bornshell
+# read : missing arguments
+
