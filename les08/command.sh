@@ -23,3 +23,6 @@ echo $REPLY
 read #bornshell
 # read : missing arguments
 
+ls -l /etc/passwd > file
+read a b c d e f g h < file
+
