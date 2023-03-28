@@ -26,3 +26,12 @@ read #bornshell
 ls -l /etc/passwd > file
 read a b c d e f g h < file
 
+# output error logs
+ls -l foobar.txt 2> error.logs
+
+# here
+#./demoheredoc.sh << ENDOFINPUT
+#> 1000
+#> 2000
+#> ENDOFINPUT
+
