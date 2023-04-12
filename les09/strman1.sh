@@ -8,7 +8,7 @@ typeset -r word1="depressed"
 
 echo -e "123456789"
 echo $word
-echo 
+echo
 
 echo -e "123456789"
 echo $word1
