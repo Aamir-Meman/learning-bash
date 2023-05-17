@@ -1,8 +1,9 @@
 #!/bin/bash
 # Script name: leap2.sh
-
+set -xv
 if [[ $# -ne 1 ]]; then
     echo "USAGE: $0 arg1"
+    exit 2
 fi
 
 year=$1
